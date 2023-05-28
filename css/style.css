@@ -1,0 +1,59 @@
+/* Add custom styles here */
+
+/* Set a background color for the body */
+body {
+  background-color: #f5f5f5;
+}
+
+/* Center the content */
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c6c3c6;
+  margin-top: 20px;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+/* Responsive styles */
+
+/* Adjust the navbar for mobile devices */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+/* Adjust the content width for tablets and mobile devices */
+@media (max-width: 991.98px) {
+  #content {
+    max-width: 600px;
+  }
+}
+
+/* Adjust the content width for mobile devices */
+@media (max-width: 575.98px) {
+  #content {
+    max-width: 400px;
+  }
+}
